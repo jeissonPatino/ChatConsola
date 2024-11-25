@@ -2,7 +2,7 @@ import random
 import json
 import pickle
 import numpy as np
-
+import os
 import nltk
 from nltk.stem import WordNetLemmatizer #Para pasar las palabras a su forma raíz
 
@@ -11,9 +11,15 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 
+ruta_proyecto = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
+ruta_intents = os.path.join(ruta_proyecto, '..', 'DATA', 'intents.json')
+ruta_words = os.path.join(ruta_proyecto, '..', 'DATA', 'entrenamiento', 'words.pkl')
+ruta_classes = os.path.join(ruta_proyecto, '..', 'DATA', 'entrenamiento', 'classes.pkl')
+ruta_chat_model = os.path.join(ruta_proyecto, '..', 'DATA', 'entrenamiento', 'chatbot_model.h5')
+
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('DATA/intents.json').read())
+intents = json.loads(open(ruta_intents,  encoding='utf-8').read())
 
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -36,8 +42,10 @@ for intent in intents['intents']:
 words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
 words = sorted(set(words))
 
-pickle.dump(words, open('DATA/entrenamiento/words.pkl', 'wb'))
-pickle.dump(classes, open('DATA/entrenamiento/classes.pkl', 'wb'))
+
+pickle.dump(words, open(ruta_words, 'wb'))
+pickle.dump(classes, open(ruta_classes, 'wb'))
+
 
 #Pasa la información a unos y ceros según las palabras presentes en cada categoría para hacer el entrenamiento
 training = []
@@ -75,5 +83,5 @@ sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer = sgd, metrics = ['accuracy'])
 
 #Entrenamos el modelo y lo guardamos
-model.fit(np.array(train_x), np.array(train_y), epochs=1000, batch_size=42, verbose=1)
-model.save("DATA/entrenamiento/chatbot_model.h5")
+model.fit(np.array(train_x), np.array(train_y), epochs=10000, batch_size=60, verbose=1)
+model.save(ruta_chat_model)

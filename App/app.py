@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import sys
 from aut.authentication import registrar_usuario, iniciar_sesion
-
+import os 
 # --- Código del chatbot ---
 import random
 import pickle
@@ -16,7 +16,7 @@ from keras.models import load_model
 lemmatizer = WordNetLemmatizer()
 
 # Importamos los archivos generados en el código anterior
-intents = json.loads(open('../DATA/intents.json').read())
+intents = json.loads(open('../DATA/intents.json',encoding='utf-8').read())
 words = pickle.load(open('../DATA/entrenamiento/words.pkl', 'rb'))
 classes = pickle.load(open('../DATA/entrenamiento/classes.pkl', 'rb'))
 model = load_model('../DATA/entrenamiento/chatbot_model.h5')
@@ -62,9 +62,20 @@ def get_response(ints, intents_json):
         result = "No entiendo lo que dices"
     return result
 
-def respuesta(message):
+def respuesta(message, usuario):
     ints = predict_class(message)
     res = get_response(ints, intents)
+    tag = ints[0]['intent']  # Obtener el 'tag' del intent reconocido
+
+    if tag == "nombre_usuario":
+        res = f"Te llamas {usuario['nombre']} {usuario['apellidos']}."
+    elif tag == "correo_usuario":
+        res = f"Tu correo es {usuario['correo']}."
+    elif tag == "nacionalidad_usuario":
+        res = f"Tu eres de {usuario['nacionalidad']}."
+    elif tag == "edad_usuario":
+        res = f"Tu tienes {usuario['edad']} años."
+
     return res
 
 # --- Fin del código del chatbot ---
@@ -90,18 +101,33 @@ def main():
             with open(f'../DATA/User/{st.session_state.correo}.json', 'r') as f:
                 usuario = json.load(f)
                 
+                nombre_archivo = f"../DATA/historial_chat/{usuario['correo']}.json"
+                if os.path.exists(nombre_archivo):
+                    with open(nombre_archivo, "r") as f:
+                        st.session_state.messages = json.load(f)
+                else:
+                    st.session_state.messages = []
                 # --- Mostrar el chat ---
                 # Inicializar la variable de sesión para el historial del chat
                 if "messages" not in st.session_state:
                     st.session_state.messages = []
 
                 # Función para manejar el envío de mensajes
-                def send_message():
+                def send_message(usuario):
                     user_message = st.session_state.user_input
                     st.session_state.messages.append({"role": "user", "content": user_message})
-                    bot_message = respuesta(user_message)
+                    bot_message = respuesta(user_message, usuario)
                     st.session_state.messages.append({"role": "assistant", "content": bot_message})
                     st.session_state.user_input = ""  # Limpiar el input
+
+                    # --- Guardar el historial del chat ---
+                    nombre_archivo = f"../DATA/historial_chat/{usuario['correo']}.json"
+                    os.makedirs(os.path.dirname(nombre_archivo), exist_ok=True)  # Crear carpeta si no existe
+                    with open(nombre_archivo, "w") as f:
+                        json.dump(st.session_state.messages, f)
+                    # --- Fin de guardar el historial ---
+
+                # ... (Interfaz de usuario de Streamlit) ...
 
                 # Interfaz de usuario de Streamlit
                 st.title("Chat con Consola")
@@ -113,7 +139,7 @@ def main():
 
                 # Input para el mensaje del usuario
                 st.text_input("Escribe tu mensaje:", key="user_input")
-                st.button("Enviar", on_click=send_message)
+                st.button("Enviar", on_click=lambda: send_message(usuario))
                 # --- Fin del chat ---
                 
         except FileNotFoundError:

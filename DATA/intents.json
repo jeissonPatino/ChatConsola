@@ -626,6 +626,513 @@
         "Este método de encriptación garantiza que tu información se mantenga confidencial y segura.",
         "Además, los archivos JSON se almacenan en un servidor seguro con acceso restringido."
       ]
+    },
+    {
+      "tag": "nombre_usuario",
+      "patterns": [
+        "como me llamo?",
+        "cual es mi nombre?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "correo_usuario",
+      "patterns": [
+        "cual es mi correo?",
+        "cual es mi correo electronico?",
+        "que correo tengo?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "nacionalidad_usuario",
+      "patterns": [
+        "de donde soy?",
+        "cual es mi nacionalidad?",
+        "de que pais soy?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "edad_usuario",
+      "patterns": [
+        "cuantos años tengo?",
+        "cual es mi edad?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "ingenieria_sistemas",
+      "patterns": [
+        "quiero estudiar ingenieria de sistemas",
+        "ingenieria de sistemas",
+        "que me recomiendas para estudiar ingenieria de sistemas",
+        "donde puedo estudiar ingenieria de sistemas",
+        "consejos para estudiar ingenieria de sistemas"
+      ],
+      "responses": [
+        "La ingeniería de sistemas es una excelente opción si te apasiona la tecnología y la resolución de problemas. Algunas universidades reconocidas para estudiarla son el MIT, Stanford y la Universidad de Oxford.",
+        "Si te interesa la ingeniería de sistemas, podrías considerar especializarte en áreas como la inteligencia artificial, la ciberseguridad o el desarrollo de software.",
+        "Para estudiar ingeniería de sistemas, es importante tener una base sólida en matemáticas y física. También es recomendable desarrollar habilidades de programación y pensamiento lógico.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería de sistemas, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros de sistemas son Google, Microsoft y Amazon."
+      ]
+    },
+    {
+      "tag": "medicina",
+      "patterns": [
+        "quiero estudiar medicina",
+        "medicina",
+        "que me recomiendas para estudiar medicina",
+        "donde puedo estudiar medicina",
+        "consejos para estudiar medicina"
+      ],
+      "responses": [
+        "La medicina es una carrera muy gratificante si te interesa ayudar a las personas y tienes vocación de servicio. Algunas universidades de renombre para estudiarla son Harvard, Johns Hopkins y la Universidad de Cambridge.",
+        "Si te interesa la medicina, podrías especializarte en áreas como la cardiología, la neurología o la oncología.",
+        "Para estudiar medicina, es fundamental tener un buen desempeño en biología, química y física. También es importante desarrollar habilidades de comunicación y empatía.",
+        "Es recomendable realizar prácticas en hospitales o clínicas para adquirir experiencia en el campo de la medicina.",
+        "Recuerda que la medicina es una carrera que requiere dedicación y compromiso, pero la recompensa de ayudar a otros es invaluable."
+      ]
+    },
+    {
+      "tag": "derecho",
+      "patterns": [
+        "quiero estudiar derecho",
+        "derecho",
+        "que me recomiendas para estudiar derecho",
+        "donde puedo estudiar derecho",
+        "consejos para estudiar derecho"
+      ],
+      "responses": [
+        "El derecho es una carrera ideal si te interesa la justicia, el debate y la defensa de los derechos. Algunas universidades prestigiosas para estudiarla son Yale, Harvard y la Universidad de Stanford.",
+        "Si te interesa el derecho, podrías especializarte en áreas como el derecho penal, el derecho civil o el derecho internacional.",
+        "Para estudiar derecho, es importante tener habilidades de lectura comprensiva, análisis y argumentación. También es crucial desarrollar la capacidad de comunicación oral y escrita.",
+        "Es recomendable participar en debates y simulaciones de juicios para adquirir experiencia en el ámbito legal.",
+        "El derecho es una carrera que te ofrece una amplia gama de oportunidades profesionales, desde la abogacía hasta la judicatura."
+      ]
+    },
+    {
+      "tag": "ingenieria_civil",
+      "patterns": [
+        "quiero estudiar ingenieria civil",
+        "ingenieria civil",
+        "que me recomiendas para estudiar ingenieria civil",
+        "donde puedo estudiar ingenieria civil",
+        "consejos para estudiar ingenieria civil"
+      ],
+      "responses": [
+        "La ingeniería civil es una gran opción si te gusta construir y diseñar estructuras. Algunas universidades reconocidas para estudiarla son la Universidad de California, Berkeley, el Instituto Tecnológico de Massachusetts (MIT) y la Universidad de Stanford.",
+        "Si te interesa la ingeniería civil, podrías especializarte en áreas como la ingeniería estructural, la ingeniería geotécnica o la ingeniería ambiental.",
+        "Para estudiar ingeniería civil, es importante que tengas una base sólida en matemáticas y física. También es recomendable que desarrolles habilidades de diseño y dibujo técnico.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería civil, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros civiles son Bechtel, Fluor y AECOM."
+      ]
+    },
+    {
+      "tag": "ingenieria_mecanica",
+      "patterns": [
+        "quiero estudiar ingenieria mecanica",
+        "ingenieria mecanica",
+        "que me recomiendas para estudiar ingenieria mecanica",
+        "donde puedo estudiar ingenieria mecanica",
+        "consejos para estudiar ingenieria mecanica"
+      ],
+      "responses": [
+        "La ingeniería mecánica es una carrera muy versátil que te permite trabajar en una variedad de industrias.  Si te gusta diseñar y construir máquinas, esta puede ser una buena opción para ti. Algunas universidades reconocidas para estudiarla son el Instituto Tecnológico de Massachusetts (MIT), la Universidad de Stanford y la Universidad de California, Berkeley.",
+        "Si te interesa la ingeniería mecánica, podrías considerar especializarte en áreas como la robótica, la mecatrónica o la energía.",
+        "Para estudiar ingeniería mecánica, es importante que tengas una base sólida en matemáticas y física. También es recomendable que desarrolles habilidades de diseño y análisis.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería mecánica, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros mecánicos son General Electric, Boeing y Ford."
+      ]
+    },
+    {
+      "tag": "ingenieria_electrica",
+      "patterns": [
+        "quiero estudiar ingenieria electrica",
+        "ingenieria electrica",
+        "que me recomiendas para estudiar ingenieria electrica",
+        "donde puedo estudiar ingenieria electrica",
+        "consejos para estudiar ingenieria electrica"
+      ],
+      "responses": [
+        "La ingeniería eléctrica es una carrera con mucho futuro, especialmente en el área de las energías renovables. Si te interesa la electricidad y la electrónica, esta puede ser una buena opción para ti. Algunas universidades reconocidas para estudiarla son el Instituto Tecnológico de Massachusetts (MIT), la Universidad de Stanford y la Universidad de California, Berkeley.",
+        "Si te interesa la ingeniería eléctrica, podrías especializarte en áreas como la electrónica de potencia, las telecomunicaciones o la automatización.",
+        "Para estudiar ingeniería eléctrica, es importante que tengas una base sólida en matemáticas y física. También es recomendable que desarrolles habilidades de análisis de circuitos y electrónica.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería eléctrica, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros eléctricos son Tesla, Siemens y ABB."
+      ]
+    },
+    {
+      "tag": "ingenieria_quimica",
+      "patterns": [
+        "quiero estudiar ingenieria quimica",
+        "ingenieria quimica",
+        "que me recomiendas para estudiar ingenieria quimica",
+        "donde puedo estudiar ingenieria quimica",
+        "consejos para estudiar ingenieria quimica"
+      ],
+      "responses": [
+        "La ingeniería química es una carrera que combina la química con la ingeniería para resolver problemas en la industria. Si te gusta la química y te interesa su aplicación en la producción, esta puede ser una buena opción para ti. Algunas universidades reconocidas para estudiarla son el Instituto Tecnológico de Massachusetts (MIT), la Universidad de Stanford y la Universidad de California, Berkeley.",
+        "Si te interesa la ingeniería química, podrías especializarte en áreas como la biotecnología, la nanotecnología o la industria alimentaria.",
+        "Para estudiar ingeniería química, es importante que tengas una base sólida en química, matemáticas y física. También es recomendable que desarrolles habilidades de análisis y resolución de problemas.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería química, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros químicos son BASF, Dow Chemical y DuPont."
+      ]
+    },
+    {
+      "tag": "ingenieria_industrial",
+      "patterns": [
+        "quiero estudiar ingenieria industrial",
+        "ingenieria industrial",
+        "que me recomiendas para estudiar ingenieria industrial",
+        "donde puedo estudiar ingenieria industrial",
+        "consejos para estudiar ingenieria industrial"
+      ],
+      "responses": [
+        "La ingeniería industrial es una carrera que se enfoca en la optimización de procesos y la eficiencia en las organizaciones. Si te interesa la gestión de operaciones y la mejora continua, esta puede ser una buena opción para ti. Algunas universidades reconocidas para estudiarla son el Instituto Tecnológico de Massachusetts (MIT), la Universidad de Stanford y la Universidad de California, Berkeley.",
+        "Si te interesa la ingeniería industrial, podrías especializarte en áreas como la logística, la cadena de suministro o la gestión de calidad.",
+        "Para estudiar ingeniería industrial, es importante que tengas una base sólida en matemáticas y estadística. También es recomendable que desarrolles habilidades de liderazgo y trabajo en equipo.",
+        "Existen muchos recursos en línea que te pueden ayudar a aprender más sobre la ingeniería industrial, como cursos en plataformas como Coursera o edX.",
+        "Algunas empresas que contratan ingenieros industriales son Amazon, FedEx y Walmart."
+      ]
+    },
+    {
+      "tag": "enfermeria",
+      "patterns": [
+        "quiero estudiar enfermeria",
+        "enfermeria",
+        "que me recomiendas para estudiar enfermeria",
+        "donde puedo estudiar enfermeria",
+        "consejos para estudiar enfermeria"
+      ],
+      "responses": [
+        "La enfermería es una profesión muy gratificante si te apasiona cuidar a los demás y buscas una carrera con alta demanda laboral.  Implica brindar atención directa a los pacientes, administrar medicamentos y tratamientos, y educar a las personas sobre su salud.",
+        "Para estudiar enfermería, es importante que tengas habilidades de comunicación, empatía y trabajo en equipo. También es fundamental que tengas una base sólida en ciencias como biología y química.",
+        "Existen diferentes niveles de formación en enfermería, desde auxiliares de enfermería hasta enfermeros con maestría o doctorado. Puedes elegir el nivel que mejor se adapte a tus objetivos profesionales.",
+        "Algunas universidades reconocidas para estudiar enfermería son la Universidad de Pennsylvania, la Universidad Johns Hopkins y la Universidad de Washington.",
+        "Recuerda que la enfermería es una profesión que requiere dedicación y compromiso, pero la satisfacción de ayudar a otros es invaluable."
+      ]
+    },
+    {
+      "tag": "fisioterapia",
+      "patterns": [
+        "quiero estudiar fisioterapia",
+        "fisioterapia",
+        "que me recomiendas para estudiar fisioterapia",
+        "donde puedo estudiar fisioterapia",
+        "consejos para estudiar fisioterapia"
+      ],
+      "responses": [
+        "La fisioterapia es una excelente opción si te gusta ayudar a las personas a recuperar su movilidad y mejorar su calidad de vida. Se enfoca en el tratamiento de lesiones, enfermedades y discapacidades a través del movimiento y el ejercicio.",
+        "Para estudiar fisioterapia, es importante que tengas conocimientos de anatomía, fisiología y biomecánica. También es recomendable que tengas habilidades de comunicación y  paciencia.",
+        "Algunas universidades reconocidas para estudiar fisioterapia son la Universidad de Pittsburgh, la Universidad Northwestern y la Universidad de Iowa.",
+        "Como fisioterapeuta, puedes trabajar en hospitales, clínicas, centros de rehabilitación o de forma independiente.",
+        "La fisioterapia es una profesión en constante evolución, por lo que es importante mantenerse actualizado sobre las nuevas técnicas y tratamientos."
+      ]
+    },
+    {
+      "tag": "nutricion",
+      "patterns": [
+        "quiero estudiar nutricion",
+        "nutricion",
+        "que me recomiendas para estudiar nutricion",
+        "donde puedo estudiar nutricion",
+        "consejos para estudiar nutricion"
+      ],
+      "responses": [
+        "La nutrición es una carrera con gran impacto en la salud de las personas. Si te interesa la alimentación y cómo influye en el bienestar, esta puede ser una buena opción para ti.",
+        "Para estudiar nutrición, es importante que tengas conocimientos de bioquímica, fisiología y dietética. También es recomendable que tengas habilidades de comunicación y educación para la salud.",
+        "Algunas universidades reconocidas para estudiar nutrición son la Universidad de Nueva York, la Universidad de California en Davis y la Universidad Tufts.",
+        "Como nutricionista, puedes trabajar en hospitales, clínicas, consultorios privados, empresas de alimentos o en el ámbito de la salud pública.",
+        "La nutrición es un campo en constante desarrollo, por lo que es fundamental mantenerse actualizado sobre las nuevas investigaciones y recomendaciones."
+      ]
+    },
+    {
+      "tag": "psicologia",
+      "patterns": [
+        "quiero estudiar psicologia",
+        "psicologia",
+        "que me recomiendas para estudiar psicologia",
+        "donde puedo estudiar psicologia",
+        "consejos para estudiar psicologia"
+      ],
+      "responses": [
+        "La psicología es una carrera fascinante que explora el comportamiento humano y los procesos mentales. Si te interesa comprender la mente humana y ayudar a las personas a superar sus dificultades, esta puede ser una buena opción para ti.",
+        "Para estudiar psicología, es importante que tengas habilidades de observación, análisis y escucha activa. También es fundamental que tengas interés en la investigación y el estudio del comportamiento humano.",
+        "Algunas universidades reconocidas para estudiar psicología son la Universidad de Stanford, la Universidad de Harvard y la Universidad de California en Los Ángeles.",
+        "Existen diferentes áreas de especialización en psicología, como la psicología clínica, la psicología educativa o la psicología organizacional.",
+        "La psicología es una carrera que te permite trabajar en una variedad de entornos, como hospitales, clínicas, escuelas o empresas."
+      ]
+    },
+    {
+      "tag": "farmacia",
+      "patterns": [
+        "quiero estudiar farmacia",
+        "farmacia",
+        "que me recomiendas para estudiar farmacia",
+        "donde puedo estudiar farmacia",
+        "consejos para estudiar farmacia"
+      ],
+      "responses": [
+        "La farmacia es una carrera crucial en el ámbito de la salud, ya que se encarga de la preparación, dispensación y control de medicamentos. Si te interesa la química, la biología y el cuidado de la salud, esta puede ser una buena opción para ti.",
+        "Para estudiar farmacia, es fundamental que tengas una base sólida en química, biología y farmacología. También es importante que desarrolles habilidades de atención al detalle y precisión.",
+        "Algunas universidades reconocidas para estudiar farmacia son la Universidad de California en San Francisco, la Universidad de Michigan y la Universidad de Minnesota.",
+        "Como farmacéutico, puedes trabajar en farmacias comunitarias, hospitales, la industria farmacéutica o en la investigación.",
+        "La farmacia es una profesión en constante cambio debido a los avances en la investigación y el desarrollo de nuevos medicamentos."
+      ]
+    },
+    {
+      "tag": "derecho_penal",
+      "patterns": [
+        "quiero estudiar derecho penal",
+        "derecho penal",
+        "que me recomiendas para estudiar derecho penal",
+        "donde puedo estudiar derecho penal",
+        "consejos para estudiar derecho penal"
+      ],
+      "responses": [
+        "El derecho penal se enfoca en los delitos, las penas y las medidas de seguridad. Si te interesa la justicia y la defensa de las víctimas, esta rama puede ser para ti.",
+        "Para estudiar derecho penal, es importante tener habilidades de análisis, argumentación y  pensamiento crítico. También es crucial un profundo conocimiento del código penal y procesal penal.",
+        "Puedes especializarte en áreas como la criminología, la victimología o el derecho penitenciario.",
+        "Universidades con programas de derecho penal destacados incluyen la Universidad de Harvard, la Universidad de Yale y la Universidad de Stanford.",
+        "El derecho penal ofrece oportunidades profesionales en la fiscalía, la defensa, la judicatura o la academia."
+      ]
+    },
+    {
+      "tag": "derecho_civil",
+      "patterns": [
+        "quiero estudiar derecho civil",
+        "derecho civil",
+        "que me recomiendas para estudiar derecho civil",
+        "donde puedo estudiar derecho civil",
+        "consejos para estudiar derecho civil"
+      ],
+      "responses": [
+        "El derecho civil regula las relaciones entre particulares, como contratos, propiedad y familia. Si te interesa la resolución de conflictos y la protección de los derechos individuales, esta rama puede ser para ti.",
+        "Para estudiar derecho civil, es importante tener habilidades de análisis, negociación y redacción. También es fundamental un sólido conocimiento del código civil y la jurisprudencia.",
+        "Puedes especializarte en áreas como el derecho de familia, el derecho contractual o el derecho de propiedad.",
+        "Universidades con programas de derecho civil reconocidos son la Universidad de Chicago, la Universidad de Columbia y la Universidad de Pennsylvania.",
+        "El derecho civil ofrece oportunidades profesionales en la abogacía, la notaría, la judicatura o la asesoría jurídica."
+      ]
+    },
+    {
+      "tag": "derecho_constitucional",
+      "patterns": [
+        "quiero estudiar derecho constitucional",
+        "derecho constitucional",
+        "que me recomiendas para estudiar derecho constitucional",
+        "donde puedo estudiar derecho constitucional",
+        "consejos para estudiar derecho constitucional"
+      ],
+      "responses": [
+        "El derecho constitucional se centra en la estructura del Estado, los derechos fundamentales y la interpretación de la Constitución. Si te interesa el poder político, la democracia y la protección de los derechos humanos, esta rama puede ser para ti.",
+        "Para estudiar derecho constitucional, es fundamental un profundo conocimiento de la Constitución, la historia política y la teoría del Estado. También es importante desarrollar habilidades de argumentación e interpretación jurídica.",
+        "Puedes especializarte en temas como la libertad de expresión, el derecho a la igualdad o el control de constitucionalidad.",
+        "Universidades con programas de derecho constitucional destacados son la Universidad de Harvard, la Universidad de Yale y la Universidad de Georgetown.",
+        "El derecho constitucional ofrece oportunidades profesionales en la judicatura, la academia, la administración pública o las organizaciones internacionales."
+      ]
+    },
+    {
+      "tag": "derecho_administrativo",
+      "patterns": [
+        "quiero estudiar derecho administrativo",
+        "derecho administrativo",
+        "que me recomiendas para estudiar derecho administrativo",
+        "donde puedo estudiar derecho administrativo",
+        "consejos para estudiar derecho administrativo"
+      ],
+      "responses": [
+        "El derecho administrativo regula la organización y funcionamiento de la administración pública. Si te interesa el servicio público, la gestión de recursos y la regulación de sectores clave, esta rama puede ser para ti.",
+        "Para estudiar derecho administrativo, es importante un conocimiento del procedimiento administrativo, la ley de contratos del Estado y la regulación de sectores como energía, transporte o salud. También es crucial desarrollar habilidades de análisis e interpretación de normas.",
+        "Puedes especializarte en temas como la contratación pública, la responsabilidad del Estado o el derecho ambiental.",
+        "Universidades con programas de derecho administrativo destacados son la Universidad de Columbia, la Universidad de Nueva York (NYU) y la Universidad George Washington.",
+        "El derecho administrativo ofrece oportunidades profesionales en la administración pública, la asesoría jurídica de empresas o la abogacía especializada."
+      ]
+    },
+    {
+      "tag": "derecho_internacional",
+      "patterns": [
+        "quiero estudiar derecho internacional",
+        "derecho internacional",
+        "que me recomiendas para estudiar derecho internacional",
+        "donde puedo estudiar derecho internacional",
+        "consejos para estudiar derecho internacional"
+      ],
+      "responses": [
+        "El derecho internacional regula las relaciones entre Estados y organizaciones internacionales. Si te interesa la diplomacia, los derechos humanos y la resolución de conflictos globales, esta rama puede ser para ti.",
+        "Para estudiar derecho internacional, es fundamental un conocimiento del derecho internacional público, el derecho internacional privado y el derecho humanitario. También es importante dominar idiomas extranjeros.",
+        "Puedes especializarte en áreas como el derecho internacional de los derechos humanos, el derecho del comercio internacional o el derecho internacional penal.",
+        "Universidades con programas de derecho internacional reconocidos son la Universidad de Georgetown, la Universidad Tufts y la Universidad de Columbia.",
+        "El derecho internacional ofrece oportunidades profesionales en organismos internacionales, la diplomacia, la abogacía o la academia."
+      ]
+    },
+    {
+      "tag": "artes_plasticas",
+      "patterns": [
+        "quiero estudiar artes plasticas",
+        "artes plasticas",
+        "pintura",
+        "escultura",
+        "grabado",
+        "dibujo"
+      ],
+      "responses": [
+        "Las artes plásticas son una excelente opción si te apasiona la expresión visual y la creación artística. Puedes explorar diferentes técnicas como la pintura, la escultura, el grabado y el dibujo.",
+        "Para estudiar artes plásticas, es importante que tengas talento creativo, habilidades de observación y  paciencia para desarrollar tu técnica.",
+        "Algunas universidades reconocidas para estudiar artes plásticas son la Academia de Bellas Artes de Florencia, la Escuela de Artes Visuales de Nueva York y la Royal Academy of Arts de Londres.",
+        "Como artista plástico, puedes trabajar como pintor, escultor, ilustrador, diseñador gráfico o profesor de arte."
+      ]
+    },
+    {
+      "tag": "musica",
+      "patterns": [
+        "quiero estudiar musica",
+        "musica",
+        "composicion musical",
+        "interpretacion musical",
+        "canto",
+        "instrumentos musicales"
+      ],
+      "responses": [
+        "La música es una carrera ideal si tienes talento musical y te apasiona la expresión a través del sonido. Puedes especializarte en composición, interpretación, canto o un instrumento específico.",
+        "Para estudiar música, es importante que tengas habilidades auditivas, ritmo y  disciplina para practicar. También es recomendable que tengas conocimientos de teoría musical.",
+        "Algunas instituciones reconocidas para estudiar música son el Conservatorio de París, la Juilliard School de Nueva York y el Royal College of Music de Londres.",
+        "Como músico, puedes trabajar como compositor, intérprete, cantante, profesor de música o director de orquesta."
+      ]
+    },
+    {
+      "tag": "cine",
+      "patterns": [
+        "quiero estudiar cine",
+        "cine",
+        "direccion de cine",
+        "guion",
+        "produccion cinematografica",
+        "fotografia"
+      ],
+      "responses": [
+        "El cine es una carrera apasionante si te interesa el lenguaje audiovisual y la narrativa. Puedes especializarte en dirección, guion, producción, fotografía o edición.",
+        "Para estudiar cine, es importante que tengas creatividad, habilidades de comunicación y  trabajo en equipo. También es recomendable que tengas conocimientos de historia del cine y teoría cinematográfica.",
+        "Algunas escuelas de cine reconocidas son la Escuela de Cine de la Universidad del Sur de California (USC), la Academia de Cine de Nueva York (NYFA) y la Escuela Nacional de Cine de Lodz (Polonia).",
+        "Como cineasta, puedes trabajar como director, guionista, productor, director de fotografía o editor."
+      ]
+    },
+    {
+      "tag": "actuacion",
+      "patterns": [
+        "quiero estudiar actuacion",
+        "actuacion",
+        "teatro",
+        "interpretacion dramatica"
+      ],
+      "responses": [
+        "La actuación es una carrera ideal si te gusta expresarte a través del cuerpo y la voz. Puedes especializarte en teatro, cine o televisión.",
+        "Para estudiar actuación, es importante que tengas talento para la interpretación, habilidades de comunicación y  expresión corporal. También es recomendable que tengas conocimientos de historia del teatro y técnicas de actuación.",
+        "Algunas escuelas de actuación reconocidas son la Academia de Arte Dramático de Londres (RADA), la Juilliard School de Nueva York y la Escuela Nacional de Arte Teatral de México.",
+        "Como actor, puedes trabajar en teatro, cine, televisión o publicidad."
+      ]
+    },
+    {
+      "tag": "fisica",
+      "patterns": [
+        "quiero estudiar fisica",
+        "fisica",
+        "fisica teorica",
+        "fisica experimental",
+        "astrofisica"
+      ],
+      "responses": [
+        "La física es una ciencia fundamental que estudia las leyes que rigen el universo.  Si te interesa comprender cómo funciona el mundo a nivel fundamental, esta puede ser una buena opción para ti.",
+        "Para estudiar física, es importante que tengas una base sólida en matemáticas y  habilidades de razonamiento lógico. También es recomendable que tengas interés en la investigación y la experimentación.",
+        "Algunas universidades reconocidas para estudiar física son el Instituto Tecnológico de Massachusetts (MIT), la Universidad de Cambridge y la Universidad de Stanford.",
+        "Como físico, puedes trabajar en investigación, docencia, industria o en el desarrollo de nuevas tecnologías."
+      ]
+    },
+    {
+      "tag": "quimica",
+      "patterns": [
+        "quiero estudiar quimica",
+        "quimica",
+        "quimica organica",
+        "quimica inorganica",
+        "bioquimica"
+      ],
+      "responses": [
+        "La química es una ciencia fundamental que estudia la composición, estructura y propiedades de la materia. Si te interesa comprender la naturaleza de las sustancias y sus transformaciones, esta puede ser una buena opción para ti.",
+        "Para estudiar química, es importante que tengas una base sólida en matemáticas y  habilidades de laboratorio. También es recomendable que tengas interés en la investigación y la experimentación.",
+        "Algunas universidades reconocidas para estudiar química son la Universidad de California, Berkeley, la Universidad de Harvard y la Universidad de Oxford.",
+        "Como químico, puedes trabajar en investigación, docencia, industria o en el desarrollo de nuevos materiales y productos."
+      ]
+    },
+    {
+      "tag": "biologia",
+      "patterns": [
+        "quiero estudiar biologia",
+        "biologia",
+        "biologia molecular",
+        "genetica",
+        "ecologia"
+      ],
+      "responses": [
+        "La biología es una ciencia que estudia la vida en todas sus formas. Si te interesa comprender los seres vivos y su interacción con el entorno, esta puede ser una buena opción para ti.",
+        "Para estudiar biología, es importante que tengas una base sólida en ciencias como química y  física. También es recomendable que tengas interés en la investigación y la experimentación.",
+        "Algunas universidades reconocidas para estudiar biología son la Universidad de Harvard, la Universidad de Stanford y la Universidad de Cambridge.",
+        "Como biólogo, puedes trabajar en investigación, docencia, industria o en el área de la salud."
+      ]
+    },
+    {
+      "tag": "futbol",
+      "patterns": [
+        "quiero jugar futbol",
+        "futbol",
+        "ser futbolista profesional",
+        "entrenar futbol"
+      ],
+      "responses": [
+        "El fútbol es un deporte apasionante que requiere habilidad, resistencia y trabajo en equipo. Para convertirte en un futbolista profesional, es fundamental que comiences a entrenar desde joven y que te unas a un equipo o academia.",
+        "Es importante que desarrolles habilidades como el control del balón, el pase, el tiro y la estrategia. También es crucial que mantengas una buena condición física y una alimentación saludable.",
+        "Puedes buscar oportunidades para jugar en ligas locales, regionales o nacionales, y participar en pruebas para equipos profesionales.",
+        "Recuerda que la disciplina, la perseverancia y el amor por el deporte son claves para alcanzar el éxito en el fútbol."
+      ]
+    },
+    {
+      "tag": "baloncesto",
+      "patterns": [
+        "quiero jugar baloncesto",
+        "baloncesto",
+        "ser jugador de baloncesto",
+        "entrenar baloncesto"
+      ],
+      "responses": [
+        "El baloncesto es un deporte dinámico que requiere habilidad, agilidad y precisión. Para convertirte en un jugador de baloncesto profesional, es importante que comiences a entrenar desde joven y que te unas a un equipo o academia.",
+        "Es fundamental que desarrolles habilidades como el dribbling, el tiro, el pase y la defensa. También es crucial que trabajes en tu salto vertical y tu resistencia.",
+        "Puedes buscar oportunidades para jugar en ligas locales, regionales o nacionales, y participar en pruebas para equipos profesionales.",
+        "Recuerda que la disciplina, la constancia y el trabajo en equipo son fundamentales para tener éxito en el baloncesto."
+      ]
+    },
+    {
+      "tag": "natacion",
+      "patterns": [
+        "quiero nadar",
+        "natacion",
+        "ser nadador profesional",
+        "entrenar natacion"
+      ],
+      "responses": [
+        "La natación es un deporte completo que requiere resistencia, técnica y fuerza. Para convertirte en un nadador profesional, es importante que comiences a entrenar desde joven y que te unas a un club de natación.",
+        "Es fundamental que domines los diferentes estilos de natación, como crol, espalda, braza y mariposa. También es crucial que trabajes en tu resistencia y tu técnica de respiración.",
+        "Puedes participar en competencias locales, regionales o nacionales, y buscar oportunidades para entrenar con entrenadores de alto rendimiento.",
+        "Recuerda que la disciplina, la constancia y la dedicación son claves para alcanzar el éxito en la natación."
+      ]
     }
   ]
 }
