@@ -16,10 +16,10 @@ from keras.models import load_model
 lemmatizer = WordNetLemmatizer()
 
 # Importamos los archivos generados en el código anterior
-intents = json.loads(open('DATA/intents.json').read())
-words = pickle.load(open('DATA/entrenamiento/words.pkl', 'rb'))
-classes = pickle.load(open('DATA/entrenamiento/classes.pkl', 'rb'))
-model = load_model('DATA/entrenamiento/chatbot_model.h5')
+intents = json.loads(open('../DATA/intents.json').read())
+words = pickle.load(open('../DATA/entrenamiento/words.pkl', 'rb'))
+classes = pickle.load(open('../DATA/entrenamiento/classes.pkl', 'rb'))
+model = load_model('../DATA/entrenamiento/chatbot_model.h5')
 
 # Pasamos las palabras de oración a su forma raíz
 def clean_up_sentence(sentence):
