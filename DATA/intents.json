@@ -1,0 +1,631 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "¿qué tal?",
+        "hola, ¿cómo estás?",
+        "hey",
+        "¿qué hay?",
+        "¿cómo te encuentras hoy?",
+        "un saludo",
+        "es un placer saludarte",
+        "Hola, ¿hay alguien ahí?",
+        "Buenas, ¿cómo va?",
+        "Hey, ¿qué onda?",
+        "¿Cómo te va?",
+        "¿Cómo has estado?",
+        "Hola, ¿me escuchas?",
+        "Hola, ¿estás ahí?",
+        "¿Qué cuentas?",
+        "¿Cómo andas?",
+        "Saludos cordiales",
+        "Es un gusto saludarte",
+        "Hola, ¿qué haces?"
+      ],
+      "responses": [
+         "¡Hola!",
+        "Buenos días.",
+        "¿Cómo estás?",
+        "Hola, ¿qué tal?",
+        "¡Hola! ¿En qué puedo ayudarte hoy?",
+        "¡Un gusto saludarte!",
+        "Hola, ¡qué bueno verte por aquí!",
+        "¡Hola! ¿Qué te trae por aquí?",
+        "¡Saludos! ¿En qué te puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "cómo te llamas",
+        "cuál es tu nombre",
+        "tienes nombre",
+        "cómo te identificas",
+        "quién eres",
+        "¿Cómo te llamas?",
+        "¿Cuál es tu nombre?",
+        "¿Tienes nombre?",
+        "Dime tu nombre",
+        "¿Quién eres?",
+        "¿Cómo debería llamarte?",
+        "¿Tienes algún apodo?",
+        "Me gustaría saber tu nombre",
+        "¿Cómo te presentas?"
+      ],
+      "responses": [
+        "Me llamo Orienta.",
+        "Mi nombre es Orienta.",
+        "Soy Orienta, tu asistente virtual.",
+        "Puedes llamarme Orienta.",
+        "Soy un chatbot, pero puedes llamarme Orienta."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "adiós",
+        "hasta luego",
+        "nos vemos",
+        "chao",
+        "hasta pronto",
+        "que te vaya bien",
+        "cuídate",
+        "me voy",
+        "estoy saliendo",
+        "Hasta la próxima.",
+        "Fue un placer hablar contigo.",
+        "Que tengas un excelente día.",
+        "Nos vemos luego",
+        "Que tengas una buena noche",
+        "Hasta mañana",
+        "Te veo pronto",
+        "Adiós, cuídate mucho",
+        "Me despido",
+        "Es hora de irme"
+      ],
+      "responses": [
+        "¡Adiós!",
+        "Hasta luego, que tengas un buen día.",
+        "Nos vemos pronto.",
+        "¡Chao!",
+        "Cuídate.",
+        "¡Que te vaya bien!",
+        "Fue un placer hablar contigo.",
+        "Espero verte pronto.",
+        "Hasta la próxima, que tengas un buen día."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "mil gracias",
+        "te lo agradezco",
+        "muy amable",
+        "eres genial",
+        "eres de gran ayuda",
+        "eres el mejor",
+        "te quiero",
+        "eres increíble",
+        "aprecio tu ayuda",
+        "me has sido de mucha ayuda",
+        "eres muy útil",
+        "gracias por tu tiempo"
+      ],
+      "responses": [
+        "De nada.",
+        "¡Con gusto!",
+        "No hay problema.",
+        "Estoy aquí para ayudarte.",
+        "Es un placer.",
+        "No es nada.",
+        "Para eso estoy.",
+        "Me alegra poder ayudarte."
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "ayuda",
+        "necesito ayuda",
+        "¿me puedes ayudar?",
+        "¿qué puedes hacer?",
+        "cuáles son tus funciones",
+        "¿Para qué estás diseñado?",
+        "¿Cuáles son tus capacidades?",
+        "¿Qué tipo de cosas puedes hacer?",
+        "Muéstrame lo que puedes hacer",
+        "Dime qué sabes hacer"
+      ],
+      "responses": [
+        "¿En qué puedo ayudarte?",
+        "Dime, ¿qué necesitas?",
+        "Estoy aquí para ayudarte. ¿Cuál es tu pregunta?",
+        "Puedo responder a tus preguntas, proporcionarte información y realizar tareas sencillas.",
+        "Estoy diseñado para ayudarte con información, responder preguntas y realizar algunas tareas básicas."
+      ]
+    },
+    {
+      "tag": "estado_animo",
+      "patterns": [
+        "¿cómo estás?",
+        "¿cómo te sientes?",
+        "¿qué tal tu día?",
+        "¿cómo va todo?",
+        "¿Te encuentras bien?",
+        "¿Cómo va tu día?",
+        "¿Estás feliz?",
+        "¿Estás triste?",
+        "¿Te sientes bien?"
+      ],
+      "responses": [
+        "¡Estoy muy bien, gracias por preguntar!",
+        "Me siento genial y listo para ayudarte.",
+        "Todo va de maravilla, gracias.",
+        "¡Mi día va excelente!",
+        "Como soy un chatbot, no tengo emociones, ¡pero estoy aquí para ayudarte!"
+      ]
+    },
+    {
+      "tag": "hora",
+      "patterns": [
+        "¿qué hora es?",
+        "¿me puedes decir la hora?",
+        "hora",
+        "¿Tienes la hora?",
+        "¿Sabes qué hora es?",
+        "Dime la hora",
+        "Por favor, dime la hora"
+      ],
+      "responses": [
+        "No tengo acceso a la hora actual, pero puedo buscarla para ti si me dices en qué ciudad estás.",
+        "Para decirte la hora, necesito saber tu ubicación. ¿Puedes decirme en qué ciudad estás?"
+      ]
+    },
+    {
+      "tag": "clima",
+      "patterns": [
+        "¿qué clima hace?",
+        "¿qué tiempo hace?",
+        "clima",
+        "temperatura",
+        "¿Cómo está el clima?",
+        "¿Qué temperatura hace?",
+        "Dime el clima",
+        "Pronóstico del tiempo"
+      ],
+      "responses": [
+        "No tengo información sobre el clima en este momento. ¿Podrías decirme en qué ciudad te encuentras?",
+        "Para darte información sobre el clima, necesito saber tu ubicación. ¿En qué ciudad estás?"
+      ]
+    },
+    {
+      "tag": "noticias",
+      "patterns": [
+        "noticias",
+        "últimas noticias",
+        "qué está pasando en el mundo",
+        "noticias de hoy",
+        "noticias internacionales",
+        "noticias locales",
+        "noticias deportivas",
+        "noticias de tecnología"
+      ],
+      "responses": [
+        "Puedo buscar las últimas noticias para ti. ¿Te interesa algún tema en particular?",
+        "Para mostrarte noticias relevantes, necesito saber qué te interesa. ¿Hay algún tema específico que te gustaría ver?"
+      ]
+    },
+    {
+      "tag": "presentacion",
+      "patterns": [
+        "Me llamo...",
+        "Soy...",
+        "Mi nombre es...",
+        "Te presento a...",
+        "Es un placer conocerte",
+        "Encantado de conocerte",
+        "Hola, mi nombre es..."
+      ],
+      "responses": [
+        "Mucho gusto, [nombre del usuario].",
+        "Encantado de conocerte, [nombre del usuario].",
+        "Es un placer conocerte también.",
+        "¡Hola, [nombre del usuario]! Es un gusto."
+      ]
+    },
+    {
+      "tag": "informacion",
+      "patterns": [
+        "¿Sabes algo sobre...?",
+        "¿Puedes buscar información sobre...?",
+        "Dime más sobre...",
+        "¿Qué es...?",
+        "¿Quién es...?",
+        "¿Cómo funciona...?",
+        "¿Para qué sirve...?",
+        "¿Dónde está...?",
+        "¿Cuándo ocurrió...?",
+        "¿Por qué...?",
+        "¿Cómo puedo...?",
+        "¿Qué debo hacer para...?",
+        "¿Hay alguna forma de...?",
+        "¿Es posible...?",
+        "¿Es cierto que...?",
+        "¿Qué opinas sobre...?",
+        "¿Qué piensas de...?",
+        "¿Qué me recomiendas...?",
+        "¿Qué me sugieres...?",
+        "¿Tienes alguna idea para...?",
+        "¿Puedes ayudarme con...?",
+        "Necesito ayuda con...",
+        "No sé cómo...",
+        "Busco información sobre...",
+        "Necesito saber más acerca de...",
+        "Puedes contarme sobre..."
+      ],
+      "responses": [
+        "Claro, puedo buscar información sobre eso.",
+        "Déjame ver qué encuentro sobre...",
+        "Un momento, estoy buscando información sobre...",
+        "Puedo intentar encontrar información sobre eso. ¿Puedes ser más específico?",
+        "Para ayudarte con la información, necesito más detalles. ¿Puedes especificar tu solicitud?"
+      ]
+    },
+    {
+      "tag": "cambio_tema",
+      "patterns": [
+        "Hablemos de otra cosa",
+        "Cambiemos de tema",
+        "No quiero hablar de eso",
+        "Pasemos a otro tema",
+        "Me gustaría hablar de...",
+        "Tengo una pregunta sobre...",
+        "A ver, dime...",
+        "Y qué hay de...",
+        "No me interesa este tema",
+        "Prefiero hablar de algo diferente",
+        "hablemos de algo más"
+      ],
+      "responses": [
+        "Claro, ¿de qué te gustaría hablar?",
+        "¡Me parece bien! ¿Qué te interesa?",
+        "Ok, ¿qué pregunta tienes?",
+        "Sin problema, ¿qué te gustaría discutir?",
+        "¡Cambiando de tema! ¿Qué te parece si hablamos de...?"
+      ]
+    },
+    {
+      "tag": "afirmacion",
+      "patterns": [
+        "Sí",
+        "Claro",
+        "Por supuesto",
+        "Exacto",
+        "Correcto",
+        "Afirmativo",
+        "Ok",
+        "Vale",
+        "Dale",
+        "De acuerdo",
+        "Sin problema",
+        "No hay problema",
+        "Perfecto",
+        "Genial",
+        "Estupendo",
+        "Fantástico",
+        "Me parece bien",
+        "Estoy de acuerdo",
+        "Tienes razón",
+        "Es verdad",
+        "Así es",
+        "Efectivamente",
+        "Me parece correcto",
+        "Totalmente de acuerdo",
+        "Sin duda",
+        "Por supuesto que sí"
+      ],
+      "responses": [
+        "¡Perfecto!",
+        "¡Genial!",
+        "¡Me parece bien!",
+        "¡Entendido!",
+        "¡Excelente!",
+        "¡De acuerdo!"
+      ]
+    },
+    {
+      "tag": "negacion",
+      "patterns": [
+        "No",
+        "Negativo",
+        "No lo sé",
+        "No estoy seguro",
+        "No me parece",
+        "No creo",
+        "No es cierto",
+        "No es verdad",
+        "Para nada",
+        "En absoluto",
+        "Ni hablar",
+        "De ninguna manera",
+        "Imposible",
+        "No way",
+        "Nones",
+        "No lo creo",
+        "Absolutamente no",
+        "En desacuerdo",
+        "No estoy de acuerdo"
+      ],
+      "responses": [
+        "Oh, entiendo.",
+        "Ya veo.",
+        "Ok, no hay problema.",
+        "Está bien.",
+        "Entiendo.",
+        "Lo tendré en cuenta."
+      ]
+    },
+    {
+      "tag": "alegria",
+      "patterns": [
+        "¡Qué bien!",
+        "¡Genial!",
+        "¡Estupendo!",
+        "¡Fantástico!",
+        "¡Me encanta!",
+        "¡Qué alegría!",
+        "¡Qué bueno!",
+        "Estoy feliz",
+        "Me siento contento",
+        "¡Qué emoción!",
+        "¡Estoy muy contento!",
+        "¡Es increíble!",
+        "¡Me siento de maravilla!"
+      ],
+      "responses": [
+        "¡Me alegro mucho!",
+        "¡Es genial escuchar eso!",
+        "¡Qué bueno que te sientas así!",
+        "¡Eso es fantástico!",
+        "¡Comparto tu alegría!"
+      ]
+    },
+    {
+      "tag": "tristeza",
+      "patterns": [
+        "Qué triste",
+        "Me siento mal",
+        "Estoy triste",
+        "Lloro",
+        "Qué pena",
+        "Qué lástima",
+        "Me siento decepcionado",
+        "Estoy desanimado",
+        "Me siento fatal",
+        "Tengo el corazón roto"
+      ],
+      "responses": [
+        "Lo siento mucho.",
+        "Espero que te sientas mejor pronto.",
+        "¿Hay algo que pueda hacer para ayudarte?",
+        "Si necesitas hablar, estoy aquí para escucharte.",
+        "Te mando un abrazo virtual."
+      ]
+    },
+    {
+      "tag": "enojo",
+      "patterns": [
+        "Estoy enojado",
+        "Me molesta",
+        "Me enfada",
+        "Me irrita",
+        "Es una vergüenza",
+        "Qué rabia",
+        "Qué coraje",
+        "Estoy furioso",
+        "Me siento frustrado",
+        "Esto es indignante"
+      ],
+      "responses": [
+        "Entiendo tu enojo.",
+        "Lamento que te sientas así.",
+        "Espero que podamos resolver esto.",
+        "Respira profundo e intenta calmarte.",
+        "Si quieres, podemos hablar de ello."
+      ]
+    },
+    {
+      "tag": "opinion",
+      "patterns": [
+        "¿Qué opinas de...?",
+        "¿Qué te parece...?",
+        "¿Qué piensas sobre...?",
+        "Me gusta...",
+        "No me gusta...",
+        "Prefiero...",
+        "Odio...",
+        "Amo...",
+        "Adoro...",
+        "Detestó...",
+        "Me parece que...",
+        "Creo que...",
+        "En mi opinión...",
+        "Mi punto de vista es...",
+        "Desde mi perspectiva..."
+      ],
+      "responses": [
+        "Es interesante.",
+        "No lo había pensado de esa manera.",
+        "Gracias por compartir tu opinión.",
+        "Es una perspectiva válida.",
+        "Respeto tu punto de vista."
+      ]
+    },
+    {
+      "tag": "proposito",
+      "patterns": [
+        "¿Qué haces?",
+        "¿Cuál es tu propósito?",
+        "¿Para qué sirves?",
+        "¿Qué puedes hacer por mí?",
+        "¿En qué me puedes ayudar?",
+        "¿Cuáles son tus funciones?",
+        "¿Qué se supone que debes hacer?",
+        "Describe tu función",
+        "Háblame de tu propósito",
+        "Dime para qué existes",
+        "¿Cuál es tu objetivo?",
+        "¿Qué logras?",
+        "¿Cómo me puedes beneficiar?",
+        "¿Por qué fuiste creado?",
+        "¿Cuál es tu razón de ser?",
+        "¿En qué te basas para orientarme?",
+        "¿Cómo me ayudas a encontrar mi vocación?",
+        "¿Qué métodos usas para la orientación?",
+        "¿Cómo sabes qué carrera es la adecuada para mí?"
+      ],
+      "responses": [
+        "Soy un asistente de orientación vocacional que utiliza tests psicométricos para ayudarte a encontrar tu carrera ideal.",
+        "Estoy aquí para guiarte en el proceso de descubrir tu vocación, utilizando herramientas como el Big Five, el Eneagrama, el Self-Directed Search y el Strong Interest Inventory.",
+        "Mi propósito es ayudarte a explorar tus opciones de carrera basándome en tus respuestas a tests como el Big Five, el Eneagrama, el Self-Directed Search y el Strong Interest Inventory.",
+        "Puedo ayudarte a encontrar una carrera que se ajuste a tu personalidad, intereses y habilidades utilizando tests como el Big Five, el Eneagrama, el Self-Directed Search y el Strong Interest Inventory.",
+        "Mi función es facilitar el proceso de orientación vocacional, para lo cual utilizo tests psicométricos como el Big Five, el Eneagrama, el Self-Directed Search y el Strong Interest Inventory, que me ayudan a comprender mejor tu perfil y tus preferencias."
+      ]
+    },
+    {
+      "tag": "explicar_big_five",
+      "patterns": [
+        "¿Qué es el Big Five?",
+        "En qué se basa el Big Five",
+        "Cómo funciona el Big Five",
+        "Describe el Big Five",
+        "Háblame del Big Five"
+      ],
+      "responses": [
+        "El Big Five es un modelo de personalidad que describe cinco rasgos principales: apertura a la experiencia, responsabilidad, extroversión, amabilidad y neuroticismo.",
+        "El Big Five se basa en la idea de que la personalidad se puede describir a través de cinco dimensiones amplias y fundamentales.",
+        "Este test evalúa tu personalidad en cinco dimensiones: apertura a la experiencia, responsabilidad, extroversión, amabilidad y neuroticismo, para comprender mejor tus tendencias y preferencias."
+      ]
+    },
+    {
+      "tag": "explicar_eneagrama",
+      "patterns": [
+        "¿Qué es el Eneagrama?",
+        "En qué se basa el Eneagrama",
+        "Cómo funciona el Eneagrama",
+        "Describe el Eneagrama",
+        "Háblame del Eneagrama"
+      ],
+      "responses": [
+        "El Eneagrama es un sistema de clasificación de la personalidad que describe nueve tipos de personalidad interconectados.",
+        "El Eneagrama se basa en la idea de que cada persona tiene una motivación básica y un patrón de comportamiento característico.",
+        "Este test identifica tu eneatipo, que revela tus motivaciones, miedos y deseos más profundos, para que puedas comprender mejor tu comportamiento y tus relaciones interpersonales."
+      ]
+    },
+    {
+      "tag": "explicar_sds",
+      "patterns": [
+        "¿Qué es el Self-Directed Search?",
+        "En qué se basa el Self-Directed Search",
+        "Cómo funciona el Self-Directed Search",
+        "Describe el Self-Directed Search",
+        "Háblame del Self-Directed Search",
+        "¿Qué es el SDS?"
+      ],
+      "responses": [
+        "El Self-Directed Search (SDS) es un test que te ayuda a identificar tus intereses y habilidades vocacionales.",
+        "El SDS se basa en la teoría de Holland, que clasifica las carreras y las personas en seis tipos: realista, investigador, artístico, social, emprendedor y convencional.",
+        "Este test te ayuda a descubrir tus intereses y habilidades para que puedas explorar carreras que se ajusten a tu perfil."
+      ]
+    },
+    {
+      "tag": "explicar_sii",
+      "patterns": [
+        "¿Qué es el Strong Interest Inventory?",
+        "En qué se basa el Strong Interest Inventory",
+        "Cómo funciona el Strong Interest Inventory",
+        "Describe el Strong Interest Inventory",
+        "Háblame del Strong Interest Inventory",
+        "¿Qué es el SII?"
+      ],
+      "responses": [
+        "El Strong Interest Inventory (SII) es un test que mide tus intereses en relación con diferentes ocupaciones.",
+        "El SII se basa en la comparación de tus intereses con los intereses de personas que están satisfechas en diferentes trabajos.",
+        "Este test te ayuda a identificar carreras que te podrían gustar basándose en tus intereses y preferencias."
+      ]
+    },
+    {
+      "tag": "uso_datos_perfil",
+      "patterns": [
+        "¿Cómo utilizas mis datos?",
+        "¿Qué haces con la información que te doy?",
+        "¿Cómo creas mi perfil?",
+        "¿Para qué recopilas mis datos?",
+        "¿Cómo se usa mi información en la orientación vocacional?",
+        "¿Qué datos guardas sobre mí?",
+        "¿Es segura la información que comparto contigo?",
+        "¿Cómo proteges mi privacidad?"
+      ],
+      "responses": [
+        "Utilizo tus datos para crear un perfil que me ayude a comprender mejor tus intereses, habilidades y preferencias.",
+        "La información que me proporcionas se utiliza para generar un perfil que me permite ofrecerte una orientación vocacional más personalizada.",
+        "A medida que respondes a mis preguntas, voy creando un perfil con tus datos para poder recomendarte carreras que se ajusten a ti.",
+        "Recopilo tus datos para poder comprender mejor tu perfil y ofrecerte una orientación vocacional más precisa y relevante.",
+        "Tu información se utiliza para generar un perfil que me ayuda a identificar tus intereses, habilidades y valores, y a encontrar carreras que se ajusten a tus características.",
+        "Guardo información sobre tus intereses, habilidades, valores y preferencias, pero no comparto tus datos con nadie más.",
+        "La información que compartes conmigo es segura y se utiliza únicamente para fines de orientación vocacional.",
+        "Protejo tu privacidad manteniendo tus datos de forma confidencial y no compartiéndolos con terceros."
+      ]
+    },
+    {
+      "tag": "recomendar_carreras",
+      "patterns": [
+        "Recomiéndame algunas carreras", 
+        "¿Qué carreras me sugieres?", 
+        "No sé qué estudiar",
+        "Qué carrera debería elegir",
+        "Qué me recomiendas estudiar",
+        "No sé qué carrera me conviene",
+        "Necesito ayuda para elegir una carrera",
+        "Qué opciones de carrera tengo",
+        "Dime algunas carreras que podrían gustarme",
+        "Estoy buscando una carrera que se ajuste a mí",
+        "Cuáles son las mejores carreras para mí",
+        "Qué carreras son compatibles con mi perfil",
+        "Qué debo estudiar",
+        "Oriéntame sobre qué carrera seguir"
+      ],
+      "responses": [
+        "Claro, puedo recomendarte algunas carreras. Primero necesito hacerte algunas preguntas.",
+        "Para recomendarte carreras que se ajusten a ti, necesito conocerte mejor. ¿Estás listo para responder algunas preguntas?",
+        "¡Con gusto te ayudo a encontrar una carrera! Empecemos con algunas preguntas para conocer tus intereses.",
+        "Para orientarte en tu elección de carrera, necesito información sobre tus preferencias. ¿Te gustaría responder un breve cuestionario?",
+        "No te preocupes, estoy aquí para ayudarte a encontrar tu camino. Empecemos explorando tus intereses y habilidades."
+      ]
+    },
+    {
+      "tag": "explicar_guardar_datos",
+      "patterns": [
+        "¿Cómo guardas mi información?",
+        "¿Dónde se almacena mi perfil?",
+        "¿Cómo proteges mis datos?",
+        "¿Mis datos están encriptados?",
+        "¿Qué medidas de seguridad utilizas?"
+      ],
+      "responses": [
+        "Tu información se guarda en un archivo JSON individual para cada usuario.",
+        "Cada archivo JSON se encripta utilizando la librería hashlib para proteger tu privacidad.",
+        "Hashlib genera un código único e irreversible para tus datos, lo que los hace ilegibles para cualquier persona que no tenga la clave de desencriptación.",
+        "Este método de encriptación garantiza que tu información se mantenga confidencial y segura.",
+        "Además, los archivos JSON se almacenan en un servidor seguro con acceso restringido."
+      ]
+    }
+  ]
+}
